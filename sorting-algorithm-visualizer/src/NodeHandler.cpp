@@ -418,8 +418,6 @@ int NodeHandler::partition(int low, int high)
 	return -3;
 }
 
-// the recursive version of quick sort is much simpler, but to visualize it with recursion is fucking hard
-// so wubba lubba dub dub
 bool NodeHandler::quickSort()
 {
 	static int low = 0;
@@ -580,7 +578,6 @@ int NodeHandler::getMinimum(int x, int y)
 	return y;
 }
 
-// creates a shit ton of subarrays then merges them together
 bool NodeHandler::mergeSort()
 {
 	// current size of sub arrays to be merged. ranges from 1 to nodes.size() / 2

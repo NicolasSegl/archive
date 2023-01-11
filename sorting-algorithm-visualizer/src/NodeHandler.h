@@ -12,7 +12,7 @@
 #include "Node.h"
 #include "Renderer.h"
 
-#include <windows.h> // this has to be after renderer.h, as it includes sfml shit. idk why it doesn't compile xdddddd
+#include <windows.h> 
 
 enum class SortingAlgorithm
 {
